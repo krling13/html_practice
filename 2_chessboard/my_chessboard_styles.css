@@ -17,4 +17,43 @@ Note that I've included the background image for the page in this folder, "grey.
 
 Write your CSS rules below.
 
+*classes*
+board
+rank
+square
+dark_square
 */
+
+body {
+  background-image: url('grey.png');
+}
+
+.board {
+  border: thick solid black;
+  margin: 36px auto; /*applies to all 4 sides*/
+}
+
+.rank {
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black; /* offset-x | offset-y | blur-radius | color */
+  height: 72px;
+}
+
+.square {
+  color: purple;
+  width: 74px;
+  padding: 0;
+}
+
+.dark_square {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9de96+0,8ab66b+44,398235+100;Green+3D+%233 */
+  background: #c9de96; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #c9de96 0%, #8ab66b 44%, #398235 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#c9de96), color-stop(44%,#8ab66b), color-stop(100%,#398235)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

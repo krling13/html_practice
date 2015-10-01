@@ -1,0 +1,72 @@
+/*
+classes
+canvas
+wide_input
+canvas_section
+sublist
+
+*/
+body {
+  font-size: 6pt;
+  font-family: Arial;
+}
+
+td {
+  vertical-align: top;
+}
+
+h1 {
+
+}
+
+h2 {
+  text-indent: 5px
+}
+
+h3 {
+  text-transform: uppercase;
+  padding: 0px 10px 0px 5px;
+  font-size: 6pt;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin: 0px;
+}
+
+.canvas {
+  width: 100%;
+  /*vertical-align: top;*/
+}
+
+.wide_input {
+  width: 50%;
+}
+
+.canvas_section {
+  border: thin black solid;
+  padding: 0px 10px 0px 5px;
+}
+
+.sublist {
+  font-style: italic;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0px 10px 0px 5px;
+  margin: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 10px 10px 10px 15px;
+}
+
+
+p {
+  margin: 0;
+}
+
+
